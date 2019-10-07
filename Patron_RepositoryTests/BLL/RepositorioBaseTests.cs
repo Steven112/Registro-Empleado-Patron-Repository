@@ -75,7 +75,7 @@ namespace Patron_Repository.BLL.Tests
             Empleado empleado = new Empleado();
             empleado = Repository.Buscar(1);
             if (empleado != null)
-                paso = true;
+            paso = true;
            
         }
 
