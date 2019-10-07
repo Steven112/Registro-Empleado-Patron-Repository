@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29215.179
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patron_Repository", "Patron_Repository\Patron_Repository.csproj", "{F5F12264-E801-4432-81F3-0D24C4CC0AB9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Patron_RepositoryTests", "Patron_RepositoryTests\Patron_RepositoryTests.csproj", "{448174F5-4FAE-423D-8983-19EB4397C2BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5F12264-E801-4432-81F3-0D24C4CC0AB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F12264-E801-4432-81F3-0D24C4CC0AB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F12264-E801-4432-81F3-0D24C4CC0AB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F12264-E801-4432-81F3-0D24C4CC0AB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{448174F5-4FAE-423D-8983-19EB4397C2BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{448174F5-4FAE-423D-8983-19EB4397C2BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{448174F5-4FAE-423D-8983-19EB4397C2BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{448174F5-4FAE-423D-8983-19EB4397C2BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D802D1AC-E0BC-45B1-952E-50B2B9C0F0F9}
+	EndGlobalSection
+EndGlobal
