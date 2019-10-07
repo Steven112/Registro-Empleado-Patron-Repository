@@ -83,6 +83,16 @@ namespace Patron_Repository.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_borrar_búsqueda_241 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-borrar-búsqueda-241", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_eliminar_24 {
             get {
                 object obj = ResourceManager.GetObject("icons8-eliminar-24", resourceCulture);

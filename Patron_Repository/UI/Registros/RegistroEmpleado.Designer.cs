@@ -47,11 +47,11 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.DirecciontextBox = new System.Windows.Forms.TextBox();
+            this.MyerrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             this.Buscarbutton = new System.Windows.Forms.Button();
             this.Eliminarbutton = new System.Windows.Forms.Button();
             this.Guardarbutton = new System.Windows.Forms.Button();
             this.Nuevobutton = new System.Windows.Forms.Button();
-            this.MyerrorProvider = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.EmpleadoIDnumericUpDown1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.MyerrorProvider)).BeginInit();
             this.SuspendLayout();
@@ -129,9 +129,9 @@
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(26, 75);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(37, 13);
+            this.label2.Size = new System.Drawing.Size(40, 13);
             this.label2.TabIndex = 14;
-            this.label2.Text = "Fecha";
+            this.label2.Text = "Fecha:";
             // 
             // label3
             // 
@@ -203,6 +203,10 @@
             this.DirecciontextBox.Size = new System.Drawing.Size(146, 20);
             this.DirecciontextBox.TabIndex = 22;
             // 
+            // MyerrorProvider
+            // 
+            this.MyerrorProvider.ContainerControl = this;
+            // 
             // Buscarbutton
             // 
             this.Buscarbutton.Image = global::Patron_Repository.Properties.Resources.icons8_borrar_búsqueda_24;
@@ -251,10 +255,6 @@
             this.Nuevobutton.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.Nuevobutton.UseVisualStyleBackColor = true;
             this.Nuevobutton.Click += new System.EventHandler(this.Nuevobutton_Click);
-            // 
-            // MyerrorProvider
-            // 
-            this.MyerrorProvider.ContainerControl = this;
             // 
             // RegistroEmpleado
             // 
